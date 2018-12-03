@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Context>
+    <Resource
+            name="jdbc/realestate"
+            auth="Container"
+            type="javax.sql.DataSource"
+            maxActive="50"
+            maxIdle="30"
+            maxWait="10000"
+            username="elvin"
+            password="elvin12#$"
+            driverClassName="com.mysql.jdbc.Driver"
+            url="jdbc:mysql://localhost:3306/realestate"/>
+</Context>
